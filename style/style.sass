@@ -2,7 +2,66 @@
   padding: 0
   margin: 0
 
+$title-font: Open-sans, sans-serif
+$main-font: Raleway, sans-serif
+
+.header-section
+  background: url(../image/bck-1.jpg) no-repeat center
+  background-size: cover
+  height: 100vh
+  .overlay
+    background-color: rgba(43, 46, 74, 0.95)
+    opacity: 100%
+
+.container
+  max-width: 1200px
+  margin: 0 auto
+
+.d-column
+  display: flex
+  flex-direction: column
+
+.d-flex
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.header
+  padding: 40px 0 40px 20px
+  display: flex
+  justify-content: space-between
+  align-items: center
+
 .logo
   a
-    text-decoration: 0
+    text-decoration: none
     color: transparent
+    display: block
+.list-menu
+  display: flex
+
+.menu
+  display: flex
+  justify-content: space-around
+  align-items: center
+  font-family: Raleway, sans-serif
+  font-size: 13px
+  list-style-type: none
+  font-weight: 700
+  opacity: 0.75
+
+  li
+    padding: 0 30px
+    font-family: $main-font
+
+    a
+      text-decoration: none
+      color: #ffffff
+      display: block
+      text-transform: uppercase
+
+.border
+  border-bottom: 1px solid #ffffff
+  opacity: 100%
+  max-width: 1200px
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15)
